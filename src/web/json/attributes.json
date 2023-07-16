@@ -1,0 +1,19 @@
+{
+    "name": {
+        "wall": {
+            "colour": "#E1D3C1"
+        },
+        "grid": {
+            "colour": "#E1D3C1"
+        },
+        "snake": {
+            "colour": "#00FF00"
+        },
+        "food": {
+            "colour": "#FF0000"
+        },
+        "track": {
+            "colour": "#0000FF"
+        }
+    }
+}

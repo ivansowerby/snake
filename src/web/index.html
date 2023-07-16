@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Snake</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="modules/jquery-3.7.0.min.js"></script>
+        <script src="modules/jcanvas.min.js"></script>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script src="js/eel.js"></script>
+        <script src="js/snake.js"></script>
+        <script src="js/control.js"></script>
+    </head>
+    <body>
+        <h1>Snake Game</h1>
+        <table id="user-table">
+            <tr>
+                <td>
+                    <p id="current-score">Current Score: <span>...</span></p>
+                </td>
+                <td>
+                    <input id="username-input" type="text" placeholder="Username">
+                    <button id="submit-button" type="submit">Submit</button>
+                </td>
+                <th>
+                    <p id="high-score">High Score: <span>...</span></p>
+                </th>
+            </tr>
+        </table>
+        <canvas id="snake-game-canvas"></canvas>
+        <table id="control-table">
+            <tr>
+                <td>
+                    <table id="controller-table">
+                        <tr>
+                            <td>
+                                <button id="up-arrow-button">
+                                    <img src="img/keyboard_arrow_up_FILL1_wght700_GRAD200_opsz48.svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="left-arrow-button">
+                                    <img src="img/keyboard_arrow_left_FILL1_wght700_GRAD200_opsz48.svg">
+                                </button>
+                            </td>
+                            <td>
+                                <button id="right-arrow-button">
+                                    <img src="img/keyboard_arrow_right_FILL1_wght700_GRAD200_opsz48.svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="down-arrow-button">
+                                    <img src="img/keyboard_arrow_down_FILL1_wght700_GRAD200_opsz48.svg">
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <button id="retry-button">Retry</button>
+                </td>
+            </tr>
+        </table>
+        <canvas id="background-canvas"></canvas>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+body {
+    width: min(90vw, 700px);
+    margin: auto;
+}
+
+body, button {
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: min(50px, 10vw);
+    color: #000000;
+}
+
+p {
+    font-size: min(25px, 5vw);
+    color: #E1D3C1;
+}
+
+span {
+    color: #000000;
+}
+
+button {
+    background-color: #FAEBD7;
+    border: solid 2px transparent;
+    border-radius: min(10px, 2vw);
+    user-select: none;
+}
+
+button:active {
+    border: solid 2px #000000;
+}
+
+#user-table {
+    width: 100%;
+    text-align: center;
+}
+
+#user-table td {
+    width: 33%;
+}
+
+#user-table input[type=text] {
+    width: 50%;
+    height: 100%;
+    font-family: inherit;
+    font-size: min(25px, 5vw);
+    border: dashed 2px #FAEBD7;
+}
+
+#user-table button {
+    font-size: min(20px, 4vw);
+    border-radius: (5px, 1vw);
+}
+
+#snake-game-canvas {
+    margin: auto;
+    padding: none;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background-color: #FAEBD7;
+}
+
+#control-table {
+    width: 100%;
+}
+
+#control-table td {
+    width: 50%;
+}
+
+#controller-table {
+    margin: auto;
+    width: 50%;
+}
+
+#controller-table button {
+    aspect-ratio: 1/1;
+}
+
+#controller-table button img {
+    width: min(56px, 8vw);
+}
+
+#retry-button {
+    padding: 0;
+    width: min(100px, 15vw);
+    aspect-ratio: 3/2;
+    font-size: min(25px, 5vw);
+}
+
+#background-canvas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: #FFFFFF;
+}
